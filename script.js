@@ -12,9 +12,6 @@ btn.addEventListener("click", () => {
             result.innerHTML = `
             <div class="word">
                     <h3>${inpWord}</h3>
-                    <button onclick="playSound()">
-                        <i class="fas fa-volume-up"></i>
-                    </button>
                 </div>
                 <div class="details">
                     <p>${data[0].meanings[0].partOfSpeech}</p>
